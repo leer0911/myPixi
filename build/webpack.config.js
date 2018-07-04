@@ -9,7 +9,7 @@ module.exports = {
     main: './src/index.js'
   },
   output: {
-    filename: 'myaudio.js',
+    filename: 'game.js',
     path: resolve('dist'),
     publicPath: '/'
   },
