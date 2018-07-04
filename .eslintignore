@@ -1,0 +1,6 @@
+build/*.js
+config/*.js
+node_modules/**
+src/utils/**
+default/**
+docstrap/**
