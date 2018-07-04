@@ -32,6 +32,7 @@ compiler.plugin('compilation', function(compilation) {
 
 // 静态资源
 app.use('/static', express.static('./static'));
+app.use('/assets', express.static('./src/assets'));
 
 app.listen(port, function() {
   console.log('Example app listening on port' + port);
